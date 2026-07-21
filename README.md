@@ -128,6 +128,6 @@ This project demonstrates:
 
 Computer Science Engineering (AI & ML)
 
-* GitHub: [https://github.com/sreenidhithota12-dotcom](https://github.com/srijay-095)
+* GitHub: https://github.com/srijay-095
 * LinkedIn:https://www.linkedin.com/in/srijay-ram-reddy-802580376/
 * LeetCode: https://leetcode.com/u/srijay95/
