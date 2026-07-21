@@ -90,7 +90,7 @@ a-star-maze-solver/
 Clone the repository:
 
 ```bash
-git clone https://github.com/sreenidhithota12-dotcom/a-star-maze-solver.git
+git clone https://github.com/srijay-095-dotcom/a-star-maze-solver.git
 cd a-star-maze-solver
 ```
 
