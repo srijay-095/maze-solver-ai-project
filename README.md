@@ -3,6 +3,9 @@
 ## Overview
 
 A Python-based visualization of the A* (A-Star) Search Algorithm used to find the shortest path in a grid-based maze. The project demonstrates fundamental Artificial Intelligence search techniques by visualizing node exploration and optimal path generation using heuristic-based pathfinding.
+
+This project was developed as part of an Artificial Intelligence case study.
+
 ## Features
 
 * A* Search Algorithm implementation
@@ -10,17 +13,18 @@ A Python-based visualization of the A* (A-Star) Search Algorithm used to find th
 * Animated visualization of node exploration
 * Optimal path reconstruction
 * Grid-based maze representation
-* Interactive GUI built using Tkinter
+* Interactive GUI using Tkinter
 * Color-coded search process
 
 ## Technologies Used
 
-- Python
-- Tkinter
-- heapq (Priority Queue)
+* Python
+* Tkinter
+* `heapq` (Priority Queue)
+
 ## Algorithm
 
-A* is an informed search algorithm that combines:
+A* is an informed search algorithm that combines the actual cost of reaching a node with an estimated cost of reaching the goal.
 
 * **g(n)** – Actual cost from the start node to the current node
 * **h(n)** – Estimated cost from the current node to the goal node
@@ -37,7 +41,7 @@ The heuristic used in this project is the Manhattan Distance:
 h(n) = |x₁ − x₂| + |y₁ − y₂|
 ```
 
-By combining actual and estimated costs, A* efficiently finds the shortest path while exploring fewer nodes than uninformed search algorithms.
+By combining actual and estimated costs, A* efficiently finds the shortest path while exploring promising nodes based on their estimated total cost.
 
 ## Visualization Legend
 
@@ -52,11 +56,12 @@ By combining actual and estimated costs, A* efficiently finds the shortest path 
 
 ## Project Highlights
 
-- Implemented A* Search Algorithm from scratch
-- Utilized Manhattan Distance heuristic
-- Visualized node exploration and path reconstruction
-- Demonstrated heuristic-based AI search techniques
-- Built an interactive GUI using Tkinter
+* Implemented the A* Search Algorithm from scratch
+* Utilized the Manhattan Distance heuristic for pathfinding
+* Visualized node exploration and path reconstruction
+* Demonstrated heuristic-based Artificial Intelligence search techniques
+* Built an interactive graphical interface using Tkinter
+* Used a Priority Queue to efficiently select the next node for exploration
 
 ## Screenshots
 
@@ -75,7 +80,7 @@ By combining actual and estimated costs, A* efficiently finds the shortest path 
 ## Project Structure
 
 ```text
-a-star-maze-solver/
+maze-solver-ai-project/
 │
 ├── maze_solver.py
 ├── README.md
@@ -87,14 +92,14 @@ a-star-maze-solver/
 
 ## How to Run
 
-Clone the repository:
+### Clone the Repository
 
 ```bash
-git clone https://github.com/srijay-095-dotcom/a-star-maze-solver.git
-cd a-star-maze-solver
+git clone https://github.com/srijay-095/maze-solver-ai-project.git
+cd maze-solver-ai-project
 ```
 
-Run the application:
+### Run the Application
 
 ```bash
 python maze_solver.py
@@ -102,7 +107,7 @@ python maze_solver.py
 
 ## Learning Outcomes
 
-This project demonstrates:
+This project provided practical understanding of:
 
 * Artificial Intelligence search techniques
 * Heuristic-based pathfinding
@@ -110,7 +115,7 @@ This project demonstrates:
 * Priority Queue implementation
 * Path reconstruction
 * GUI development using Tkinter
-* Algorithm visualization and animation
+* Visualization and animation of search algorithms
 
 ## Future Enhancements
 
@@ -119,8 +124,8 @@ This project demonstrates:
 * BFS (Breadth-First Search)
 * DFS (Depth-First Search)
 * Dijkstra's Algorithm
-* Search algorithm comparison dashboard
-* Performance metrics (execution time, nodes explored, path length)
+* Comparison of different search algorithms
+* Performance metrics such as execution time, nodes explored, and path length
 
 ## Author
 
@@ -129,5 +134,5 @@ This project demonstrates:
 Computer Science Engineering (AI & ML)
 
 * GitHub: https://github.com/srijay-095
-* LinkedIn:https://www.linkedin.com/in/srijay-ram-reddy-802580376/
+* LinkedIn: https://www.linkedin.com/in/srijay-ram-reddy-802580376/
 * LeetCode: https://leetcode.com/u/srijay95/
